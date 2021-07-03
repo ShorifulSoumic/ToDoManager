@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDoManager001</string>
+    <string-array name="tasks">
+        <item>Wake up</item>
+        <item>Brush</item>
+        <item>Breakfast</item>
+        <item>Go to sleep!</item>
+    </string-array>
+    <string-array name="timendate">
+        <item>I just woke up right now. Not actually that hard!</item>
+        <item>Going to the bathroom and will take some lazy time.</item>
+        <item>I think I will have some lunch now.</item>
+        <item>Felling sleepy. BYE BYE!</item>
+    </string-array>
+</resources>
