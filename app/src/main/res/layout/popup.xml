@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Task"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#0A1133"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/headingid"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="Add task heading"
+        android:textColorHint="#787676"
+        android:textColor="#FFFFFF"
+        android:background="#0A1133"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/detailsid"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="Add task details"
+        android:textColorHint="#787676"
+        android:textColor="#FFFFFF"
+        android:background="#0A1133"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:clickable="true"
+        android:id="@+id/dateid"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:background="#0A1133"
+        android:text="Click to add Date"
+        />
+
+    <TextView
+        android:textAlignment="center"
+        android:clickable="true"
+        android:id="@+id/timeid"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:background="#0A1133"
+        android:text="Click to add Time"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/cancelid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/saveid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save" />
+
+    </LinearLayout>
+</LinearLayout>
